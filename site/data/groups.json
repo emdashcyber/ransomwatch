@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.watchguard.com/wgrd-security-hub/ransomware-tracker",
-  "updated_at": "2026-10-03T08:40:00Z",
+  "updated_at": "2026-10-04T08:57:38Z",
   "pages_scanned": 27,
   "groups": [
     {
@@ -16,7 +16,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:42Z"
+      "profile_checked_at": "2026-10-04T08:52:49Z"
     },
     {
       "group_id": "ucylocker",
@@ -30,7 +30,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:43Z"
+      "profile_checked_at": "2026-10-04T08:52:50Z"
     },
     {
       "group_id": "0apt",
@@ -49,7 +49,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:44Z"
+      "profile_checked_at": "2026-10-04T08:52:51Z"
     },
     {
       "group_id": "0day",
@@ -68,7 +68,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:44Z"
+      "profile_checked_at": "2026-10-04T08:52:51Z"
     },
     {
       "group_id": "0mega",
@@ -82,7 +82,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:45Z"
+      "profile_checked_at": "2026-10-04T08:52:52Z"
     },
     {
       "group_id": "0mid16b",
@@ -121,7 +121,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:46Z"
+      "profile_checked_at": "2026-10-04T08:52:53Z"
     },
     {
       "group_id": "2023lock",
@@ -160,7 +160,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:46Z"
+      "profile_checked_at": "2026-10-04T08:52:54Z"
     },
     {
       "group_id": "8base",
@@ -187,7 +187,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:47Z"
+      "profile_checked_at": "2026-10-04T08:52:55Z"
     },
     {
       "group_id": "abrahams-ax",
@@ -214,7 +214,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:48Z"
+      "profile_checked_at": "2026-10-04T08:52:55Z"
     },
     {
       "group_id": "abyss",
@@ -233,7 +233,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:48Z"
+      "profile_checked_at": "2026-10-04T08:52:56Z"
     },
     {
       "group_id": "aids-trojan",
@@ -247,7 +247,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:49Z"
+      "profile_checked_at": "2026-10-04T08:52:57Z"
     },
     {
       "group_id": "ailock",
@@ -266,7 +266,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:50Z"
+      "profile_checked_at": "2026-10-04T08:52:58Z"
     },
     {
       "group_id": "akira",
@@ -285,7 +285,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:50Z"
+      "profile_checked_at": "2026-10-04T08:52:58Z"
     },
     {
       "group_id": "albabat",
@@ -299,7 +299,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:51Z"
+      "profile_checked_at": "2026-10-04T08:52:59Z"
     },
     {
       "group_id": "albabat-beta",
@@ -313,7 +313,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:52Z"
+      "profile_checked_at": "2026-10-04T08:53:00Z"
     },
     {
       "group_id": "alp-001",
@@ -336,7 +336,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:52Z"
+      "profile_checked_at": "2026-10-04T08:53:01Z"
     },
     {
       "group_id": "alpha-locker",
@@ -355,7 +355,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:53Z"
+      "profile_checked_at": "2026-10-04T08:53:02Z"
     },
     {
       "group_id": "alphv",
@@ -386,7 +386,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:54Z"
+      "profile_checked_at": "2026-10-04T08:53:03Z"
     },
     {
       "group_id": "anonymous",
@@ -400,7 +400,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:35:54Z"
+      "profile_checked_at": "2026-10-04T08:53:03Z"
     },
     {
       "group_id": "anubis",
@@ -423,7 +423,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:55Z"
+      "profile_checked_at": "2026-10-04T08:53:04Z"
     },
     {
       "group_id": "apos-security",
@@ -442,7 +442,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:56Z"
+      "profile_checked_at": "2026-10-04T08:53:05Z"
     },
     {
       "group_id": "arachna-leak",
@@ -461,7 +461,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:56Z"
+      "profile_checked_at": "2026-10-04T08:53:05Z"
     },
     {
       "group_id": "archive-iah6477",
@@ -480,7 +480,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:57Z"
+      "profile_checked_at": "2026-10-04T08:53:06Z"
     },
     {
       "group_id": "arcus-media",
@@ -499,7 +499,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:58Z"
+      "profile_checked_at": "2026-10-04T08:53:07Z"
     },
     {
       "group_id": "argonauts-group",
@@ -518,7 +518,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:58Z"
+      "profile_checked_at": "2026-10-04T08:53:08Z"
     },
     {
       "group_id": "arkana-security",
@@ -541,7 +541,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:59Z"
+      "profile_checked_at": "2026-10-04T08:53:08Z"
     },
     {
       "group_id": "arvin-club",
@@ -555,7 +555,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:35:59Z"
+      "profile_checked_at": "2026-10-04T08:53:09Z"
     },
     {
       "group_id": "atomsilo",
@@ -578,7 +578,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:00Z"
+      "profile_checked_at": "2026-10-04T08:53:10Z"
     },
     {
       "group_id": "aur0ra",
@@ -605,7 +605,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:01Z"
+      "profile_checked_at": "2026-10-04T08:53:10Z"
     },
     {
       "group_id": "avoslocker",
@@ -628,7 +628,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:01Z"
+      "profile_checked_at": "2026-10-04T08:53:11Z"
     },
     {
       "group_id": "azov",
@@ -642,7 +642,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:02Z"
+      "profile_checked_at": "2026-10-04T08:53:12Z"
     },
     {
       "group_id": "azzasec",
@@ -656,7 +656,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:03Z"
+      "profile_checked_at": "2026-10-04T08:53:13Z"
     },
     {
       "group_id": "babuk",
@@ -679,7 +679,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:03Z"
+      "profile_checked_at": "2026-10-04T08:53:13Z"
     },
     {
       "group_id": "bagli",
@@ -693,7 +693,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:04Z"
+      "profile_checked_at": "2026-10-04T08:53:14Z"
     },
     {
       "group_id": "barracuda",
@@ -716,7 +716,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:05Z"
+      "profile_checked_at": "2026-10-04T08:53:15Z"
     },
     {
       "group_id": "bashe",
@@ -763,7 +763,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:05Z"
+      "profile_checked_at": "2026-10-04T08:53:16Z"
     },
     {
       "group_id": "beast",
@@ -786,7 +786,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:06Z"
+      "profile_checked_at": "2026-10-04T08:53:16Z"
     },
     {
       "group_id": "belsen-group",
@@ -805,7 +805,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:07Z"
+      "profile_checked_at": "2026-10-04T08:53:17Z"
     },
     {
       "group_id": "benzona",
@@ -828,7 +828,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:07Z"
+      "profile_checked_at": "2026-10-04T08:53:18Z"
     },
     {
       "group_id": "bert",
@@ -847,7 +847,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:08Z"
+      "profile_checked_at": "2026-10-04T08:53:18Z"
     },
     {
       "group_id": "bianlian",
@@ -874,7 +874,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:09Z"
+      "profile_checked_at": "2026-10-04T08:53:19Z"
     },
     {
       "group_id": "bigbobross",
@@ -888,7 +888,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:09Z"
+      "profile_checked_at": "2026-10-04T08:53:20Z"
     },
     {
       "group_id": "bjorkanism",
@@ -911,7 +911,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:10Z"
+      "profile_checked_at": "2026-10-04T08:53:21Z"
     },
     {
       "group_id": "bl00dy",
@@ -925,7 +925,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:11Z"
+      "profile_checked_at": "2026-10-04T08:53:22Z"
     },
     {
       "group_id": "blckt0r",
@@ -944,7 +944,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:11Z"
+      "profile_checked_at": "2026-10-04T08:53:23Z"
     },
     {
       "group_id": "black-basta",
@@ -963,7 +963,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:12Z"
+      "profile_checked_at": "2026-10-04T08:53:24Z"
     },
     {
       "group_id": "black-basta-v2",
@@ -982,7 +982,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:13Z"
+      "profile_checked_at": "2026-10-04T08:53:24Z"
     },
     {
       "group_id": "black-shrantac",
@@ -1005,7 +1005,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:13Z"
+      "profile_checked_at": "2026-10-04T08:53:25Z"
     },
     {
       "group_id": "black-x",
@@ -1024,7 +1024,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:14Z"
+      "profile_checked_at": "2026-10-04T08:53:26Z"
     },
     {
       "group_id": "blackbyte",
@@ -1043,7 +1043,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:15Z"
+      "profile_checked_at": "2026-10-04T08:53:27Z"
     },
     {
       "group_id": "blackbyte-crux",
@@ -1062,7 +1062,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:15Z"
+      "profile_checked_at": "2026-10-04T08:53:27Z"
     },
     {
       "group_id": "blackdolphin",
@@ -1085,7 +1085,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:16Z"
+      "profile_checked_at": "2026-10-04T08:53:29Z"
     },
     {
       "group_id": "blackfield",
@@ -1108,7 +1108,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:17Z"
+      "profile_checked_at": "2026-10-04T08:53:29Z"
     },
     {
       "group_id": "blacklock",
@@ -1127,7 +1127,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:17Z"
+      "profile_checked_at": "2026-10-04T08:53:30Z"
     },
     {
       "group_id": "blacklocks",
@@ -1146,7 +1146,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:18Z"
+      "profile_checked_at": "2026-10-04T08:53:31Z"
     },
     {
       "group_id": "blackmatter",
@@ -1160,7 +1160,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:19Z"
+      "profile_checked_at": "2026-10-04T08:53:31Z"
     },
     {
       "group_id": "blacknevas",
@@ -1179,7 +1179,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:19Z"
+      "profile_checked_at": "2026-10-04T08:53:32Z"
     },
     {
       "group_id": "blackout",
@@ -1198,7 +1198,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:20Z"
+      "profile_checked_at": "2026-10-04T08:53:33Z"
     },
     {
       "group_id": "blackskull",
@@ -1212,7 +1212,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:21Z"
+      "profile_checked_at": "2026-10-04T08:53:34Z"
     },
     {
       "group_id": "blacksuit",
@@ -1235,7 +1235,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:21Z"
+      "profile_checked_at": "2026-10-04T08:53:34Z"
     },
     {
       "group_id": "blackwater",
@@ -1254,7 +1254,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:22Z"
+      "profile_checked_at": "2026-10-04T08:53:35Z"
     },
     {
       "group_id": "bluebox-10",
@@ -1273,7 +1273,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:23Z"
+      "profile_checked_at": "2026-10-04T08:53:36Z"
     },
     {
       "group_id": "bluesky",
@@ -1287,7 +1287,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:23Z"
+      "profile_checked_at": "2026-10-04T08:53:36Z"
     },
     {
       "group_id": "bluewhale",
@@ -1306,7 +1306,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:24Z"
+      "profile_checked_at": "2026-10-04T08:53:37Z"
     },
     {
       "group_id": "booba-project",
@@ -1325,7 +1325,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:25Z"
+      "profile_checked_at": "2026-10-04T08:53:38Z"
     },
     {
       "group_id": "bqtlock",
@@ -1344,7 +1344,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:25Z"
+      "profile_checked_at": "2026-10-04T08:53:39Z"
     },
     {
       "group_id": "brain-cipher",
@@ -1363,7 +1363,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:26Z"
+      "profile_checked_at": "2026-10-04T08:53:39Z"
     },
     {
       "group_id": "bravox",
@@ -1382,7 +1382,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:27Z"
+      "profile_checked_at": "2026-10-04T08:53:40Z"
     },
     {
       "group_id": "brotherhood",
@@ -1401,7 +1401,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:27Z"
+      "profile_checked_at": "2026-10-04T08:53:41Z"
     },
     {
       "group_id": "cactus",
@@ -1420,7 +1420,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:28Z"
+      "profile_checked_at": "2026-10-04T08:53:42Z"
     },
     {
       "group_id": "cephalus",
@@ -1439,7 +1439,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:28Z"
+      "profile_checked_at": "2026-10-04T08:53:42Z"
     },
     {
       "group_id": "chaos",
@@ -1458,7 +1458,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:29Z"
+      "profile_checked_at": "2026-10-04T08:53:43Z"
     },
     {
       "group_id": "chaos-v10",
@@ -1472,7 +1472,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:30Z"
+      "profile_checked_at": "2026-10-04T08:53:44Z"
     },
     {
       "group_id": "chaos-v20",
@@ -1486,7 +1486,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:30Z"
+      "profile_checked_at": "2026-10-04T08:53:44Z"
     },
     {
       "group_id": "chaos-v30",
@@ -1500,7 +1500,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:31Z"
+      "profile_checked_at": "2026-10-04T08:53:45Z"
     },
     {
       "group_id": "chaos-v40",
@@ -1514,7 +1514,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:32Z"
+      "profile_checked_at": "2026-10-04T08:53:46Z"
     },
     {
       "group_id": "chaos-v50",
@@ -1528,7 +1528,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:32Z"
+      "profile_checked_at": "2026-10-04T08:53:47Z"
     },
     {
       "group_id": "chastitylock",
@@ -1542,7 +1542,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:33Z"
+      "profile_checked_at": "2026-10-04T08:53:47Z"
     },
     {
       "group_id": "cheerscrypt",
@@ -1561,7 +1561,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:34Z"
+      "profile_checked_at": "2026-10-04T08:53:48Z"
     },
     {
       "group_id": "cheng-xilun",
@@ -1575,7 +1575,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:34Z"
+      "profile_checked_at": "2026-10-04T08:53:49Z"
     },
     {
       "group_id": "chort",
@@ -1594,7 +1594,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:35Z"
+      "profile_checked_at": "2026-10-04T08:53:49Z"
     },
     {
       "group_id": "cicada3301",
@@ -1649,7 +1649,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:36Z"
+      "profile_checked_at": "2026-10-04T08:53:50Z"
     },
     {
       "group_id": "ciphbit",
@@ -1672,7 +1672,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:36Z"
+      "profile_checked_at": "2026-10-04T08:53:51Z"
     },
     {
       "group_id": "cipherforce",
@@ -1691,7 +1691,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:37Z"
+      "profile_checked_at": "2026-10-04T08:53:52Z"
     },
     {
       "group_id": "cl0p",
@@ -1714,7 +1714,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:38Z"
+      "profile_checked_at": "2026-10-04T08:53:52Z"
     },
     {
       "group_id": "cloak",
@@ -1733,7 +1733,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:38Z"
+      "profile_checked_at": "2026-10-04T08:53:53Z"
     },
     {
       "group_id": "cmd-organization",
@@ -1756,7 +1756,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:39Z"
+      "profile_checked_at": "2026-10-04T08:53:54Z"
     },
     {
       "group_id": "coinbase-cartel",
@@ -1775,7 +1775,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:40Z"
+      "profile_checked_at": "2026-10-04T08:53:55Z"
     },
     {
       "group_id": "crazyhunter",
@@ -1794,7 +1794,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:40Z"
+      "profile_checked_at": "2026-10-04T08:53:55Z"
     },
     {
       "group_id": "crimson-walrus",
@@ -1813,7 +1813,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:41Z"
+      "profile_checked_at": "2026-10-04T08:53:56Z"
     },
     {
       "group_id": "crosslock",
@@ -1832,7 +1832,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:42Z"
+      "profile_checked_at": "2026-10-04T08:53:57Z"
     },
     {
       "group_id": "crpxo",
@@ -1851,7 +1851,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:42Z"
+      "profile_checked_at": "2026-10-04T08:53:57Z"
     },
     {
       "group_id": "crpxo-v20",
@@ -1874,7 +1874,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:43Z"
+      "profile_checked_at": "2026-10-04T08:53:58Z"
     },
     {
       "group_id": "cry0",
@@ -1897,7 +1897,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:44Z"
+      "profile_checked_at": "2026-10-04T08:53:59Z"
     },
     {
       "group_id": "cryptnet",
@@ -1932,7 +1932,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:44Z"
+      "profile_checked_at": "2026-10-04T08:53:59Z"
     },
     {
       "group_id": "crypto24",
@@ -1951,7 +1951,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:45Z"
+      "profile_checked_at": "2026-10-04T08:54:00Z"
     },
     {
       "group_id": "crywiper",
@@ -1965,7 +1965,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:46Z"
+      "profile_checked_at": "2026-10-04T08:54:01Z"
     },
     {
       "group_id": "cs-137",
@@ -1979,7 +1979,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:46Z"
+      "profile_checked_at": "2026-10-04T08:54:02Z"
     },
     {
       "group_id": "cuba",
@@ -2010,7 +2010,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:47Z"
+      "profile_checked_at": "2026-10-04T08:54:03Z"
     },
     {
       "group_id": "cybervolk",
@@ -2024,7 +2024,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:48Z"
+      "profile_checked_at": "2026-10-04T08:54:04Z"
     },
     {
       "group_id": "d0glun",
@@ -2043,7 +2043,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:48Z"
+      "profile_checked_at": "2026-10-04T08:54:04Z"
     },
     {
       "group_id": "d1r",
@@ -2062,7 +2062,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:49Z"
+      "profile_checked_at": "2026-10-04T08:54:05Z"
     },
     {
       "group_id": "d4rk4rmy",
@@ -2076,7 +2076,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:49Z"
+      "profile_checked_at": "2026-10-04T08:54:06Z"
     },
     {
       "group_id": "daixin",
@@ -2099,7 +2099,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:50Z"
+      "profile_checked_at": "2026-10-04T08:54:06Z"
     },
     {
       "group_id": "dan0n",
@@ -2122,7 +2122,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:51Z"
+      "profile_checked_at": "2026-10-04T08:54:07Z"
     },
     {
       "group_id": "dark-angels",
@@ -2149,7 +2149,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:51Z"
+      "profile_checked_at": "2026-10-04T08:54:08Z"
     },
     {
       "group_id": "dark-project",
@@ -2200,7 +2200,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:52Z"
+      "profile_checked_at": "2026-10-04T08:54:09Z"
     },
     {
       "group_id": "dark-shinigamis",
@@ -2223,7 +2223,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:53Z"
+      "profile_checked_at": "2026-10-04T08:54:10Z"
     },
     {
       "group_id": "darkbit",
@@ -2237,7 +2237,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:36:53Z"
+      "profile_checked_at": "2026-10-04T08:54:11Z"
     },
     {
       "group_id": "darkvault",
@@ -2264,7 +2264,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:54Z"
+      "profile_checked_at": "2026-10-04T08:54:12Z"
     },
     {
       "group_id": "data-exposure-terminal",
@@ -2287,7 +2287,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:55Z"
+      "profile_checked_at": "2026-10-04T08:54:12Z"
     },
     {
       "group_id": "datacarry",
@@ -2306,7 +2306,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:55Z"
+      "profile_checked_at": "2026-10-04T08:54:13Z"
     },
     {
       "group_id": "dataleakes",
@@ -2325,7 +2325,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:56Z"
+      "profile_checked_at": "2026-10-04T08:54:14Z"
     },
     {
       "group_id": "deadlock",
@@ -2344,7 +2344,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:57Z"
+      "profile_checked_at": "2026-10-04T08:54:15Z"
     },
     {
       "group_id": "dedsec",
@@ -2358,7 +2358,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:57Z"
+      "profile_checked_at": "2026-10-04T08:54:17Z"
     },
     {
       "group_id": "desolator",
@@ -2377,7 +2377,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:58Z"
+      "profile_checked_at": "2026-10-04T08:54:17Z"
     },
     {
       "group_id": "devman",
@@ -2396,7 +2396,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:59Z"
+      "profile_checked_at": "2026-10-04T08:54:18Z"
     },
     {
       "group_id": "devman-20",
@@ -2419,7 +2419,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:36:59Z"
+      "profile_checked_at": "2026-10-04T08:54:19Z"
     },
     {
       "group_id": "dhc",
@@ -2438,7 +2438,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:00Z"
+      "profile_checked_at": "2026-10-04T08:54:20Z"
     },
     {
       "group_id": "dire-wolf",
@@ -2457,7 +2457,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:01Z"
+      "profile_checked_at": "2026-10-04T08:54:21Z"
     },
     {
       "group_id": "dispossessor",
@@ -2492,7 +2492,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:01Z"
+      "profile_checked_at": "2026-10-04T08:54:21Z"
     },
     {
       "group_id": "dnwipe",
@@ -2506,7 +2506,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:02Z"
+      "profile_checked_at": "2026-10-04T08:54:22Z"
     },
     {
       "group_id": "donex",
@@ -2525,7 +2525,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:03Z"
+      "profile_checked_at": "2026-10-04T08:54:23Z"
     },
     {
       "group_id": "donut-leaks",
@@ -2552,7 +2552,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:03Z"
+      "profile_checked_at": "2026-10-04T08:54:24Z"
     },
     {
       "group_id": "doommageddon",
@@ -2571,7 +2571,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:04Z"
+      "profile_checked_at": "2026-10-04T08:54:24Z"
     },
     {
       "group_id": "dragonforce",
@@ -2590,7 +2590,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:05Z"
+      "profile_checked_at": "2026-10-04T08:54:25Z"
     },
     {
       "group_id": "dunghill-leak",
@@ -2613,7 +2613,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:05Z"
+      "profile_checked_at": "2026-10-04T08:54:26Z"
     },
     {
       "group_id": "dysphor1a",
@@ -2632,7 +2632,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:06Z"
+      "profile_checked_at": "2026-10-04T08:54:27Z"
     },
     {
       "group_id": "eclipse",
@@ -2655,7 +2655,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:07Z"
+      "profile_checked_at": "2026-10-04T08:54:28Z"
     },
     {
       "group_id": "eda2",
@@ -2669,7 +2669,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:07Z"
+      "profile_checked_at": "2026-10-04T08:54:29Z"
     },
     {
       "group_id": "embargo",
@@ -2688,7 +2688,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:08Z"
+      "profile_checked_at": "2026-10-04T08:54:29Z"
     },
     {
       "group_id": "emperador",
@@ -2707,7 +2707,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:08Z"
+      "profile_checked_at": "2026-10-04T08:54:30Z"
     },
     {
       "group_id": "endurance",
@@ -2730,7 +2730,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:09Z"
+      "profile_checked_at": "2026-10-04T08:54:31Z"
     },
     {
       "group_id": "endzone",
@@ -2749,7 +2749,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:10Z"
+      "profile_checked_at": "2026-10-04T08:54:31Z"
     },
     {
       "group_id": "ethics",
@@ -2768,7 +2768,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:10Z"
+      "profile_checked_at": "2026-10-04T08:54:32Z"
     },
     {
       "group_id": "everest",
@@ -2791,7 +2791,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:11Z"
+      "profile_checked_at": "2026-10-04T08:54:33Z"
     },
     {
       "group_id": "evilmorocco",
@@ -2805,7 +2805,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:12Z"
+      "profile_checked_at": "2026-10-04T08:54:34Z"
     },
     {
       "group_id": "exfilsquad",
@@ -2824,7 +2824,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:12Z"
+      "profile_checked_at": "2026-10-04T08:54:34Z"
     },
     {
       "group_id": "exitium",
@@ -2843,7 +2843,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:13Z"
+      "profile_checked_at": "2026-10-04T08:54:35Z"
     },
     {
       "group_id": "falcon",
@@ -2862,7 +2862,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:14Z"
+      "profile_checked_at": "2026-10-04T08:54:36Z"
     },
     {
       "group_id": "femboysec",
@@ -2876,7 +2876,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:14Z"
+      "profile_checked_at": "2026-10-04T08:54:37Z"
     },
     {
       "group_id": "file-manager",
@@ -2895,7 +2895,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:15Z"
+      "profile_checked_at": "2026-10-04T08:54:37Z"
     },
     {
       "group_id": "flocker",
@@ -2914,7 +2914,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:16Z"
+      "profile_checked_at": "2026-10-04T08:54:38Z"
     },
     {
       "group_id": "fog",
@@ -2937,7 +2937,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:16Z"
+      "profile_checked_at": "2026-10-04T08:54:39Z"
     },
     {
       "group_id": "frag",
@@ -2956,7 +2956,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:17Z"
+      "profile_checked_at": "2026-10-04T08:54:39Z"
     },
     {
       "group_id": "free-followers",
@@ -2970,7 +2970,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:18Z"
+      "profile_checked_at": "2026-10-04T08:54:40Z"
     },
     {
       "group_id": "fsteam",
@@ -3001,7 +3001,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:18Z"
+      "profile_checked_at": "2026-10-04T08:54:41Z"
     },
     {
       "group_id": "fulcrumsec",
@@ -3032,7 +3032,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:19Z"
+      "profile_checked_at": "2026-10-04T08:54:42Z"
     },
     {
       "group_id": "funksec",
@@ -3095,7 +3095,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:20Z"
+      "profile_checked_at": "2026-10-04T08:54:42Z"
     },
     {
       "group_id": "gammax",
@@ -3114,7 +3114,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:20Z"
+      "profile_checked_at": "2026-10-04T08:54:43Z"
     },
     {
       "group_id": "gd-lockersec",
@@ -3133,7 +3133,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:21Z"
+      "profile_checked_at": "2026-10-04T08:54:44Z"
     },
     {
       "group_id": "genesis",
@@ -3152,7 +3152,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:22Z"
+      "profile_checked_at": "2026-10-04T08:54:45Z"
     },
     {
       "group_id": "ghoshacker",
@@ -3166,7 +3166,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:22Z"
+      "profile_checked_at": "2026-10-04T08:54:45Z"
     },
     {
       "group_id": "global",
@@ -3185,7 +3185,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:23Z"
+      "profile_checked_at": "2026-10-04T08:54:46Z"
     },
     {
       "group_id": "global-cybernetic-collective",
@@ -3208,7 +3208,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:23Z"
+      "profile_checked_at": "2026-10-04T08:54:47Z"
     },
     {
       "group_id": "global-secret-group",
@@ -3227,7 +3227,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:24Z"
+      "profile_checked_at": "2026-10-04T08:54:47Z"
     },
     {
       "group_id": "golden-axe",
@@ -3241,7 +3241,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:25Z"
+      "profile_checked_at": "2026-10-04T08:54:48Z"
     },
     {
       "group_id": "gunra",
@@ -3260,7 +3260,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:26Z"
+      "profile_checked_at": "2026-10-04T08:54:49Z"
     },
     {
       "group_id": "hakuna-matata-17",
@@ -3274,7 +3274,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:26Z"
+      "profile_checked_at": "2026-10-04T08:54:50Z"
     },
     {
       "group_id": "handala",
@@ -3333,7 +3333,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:27Z"
+      "profile_checked_at": "2026-10-04T08:54:50Z"
     },
     {
       "group_id": "harunaware",
@@ -3347,7 +3347,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:28Z"
+      "profile_checked_at": "2026-10-04T08:54:51Z"
     },
     {
       "group_id": "head-mare",
@@ -3361,7 +3361,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:28Z"
+      "profile_checked_at": "2026-10-04T08:54:52Z"
     },
     {
       "group_id": "helix",
@@ -3380,7 +3380,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:29Z"
+      "profile_checked_at": "2026-10-04T08:54:52Z"
     },
     {
       "group_id": "hellcat",
@@ -3403,7 +3403,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:30Z"
+      "profile_checked_at": "2026-10-04T08:54:53Z"
     },
     {
       "group_id": "helldown",
@@ -3434,7 +3434,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:30Z"
+      "profile_checked_at": "2026-10-04T08:54:54Z"
     },
     {
       "group_id": "hellogookie",
@@ -3453,7 +3453,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:31Z"
+      "profile_checked_at": "2026-10-04T08:54:55Z"
     },
     {
       "group_id": "hidden-tear",
@@ -3467,7 +3467,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:32Z"
+      "profile_checked_at": "2026-10-04T08:54:55Z"
     },
     {
       "group_id": "hunters-international",
@@ -3498,7 +3498,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:32Z"
+      "profile_checked_at": "2026-10-04T08:54:56Z"
     },
     {
       "group_id": "icarus",
@@ -3517,7 +3517,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:33Z"
+      "profile_checked_at": "2026-10-04T08:54:57Z"
     },
     {
       "group_id": "imn-crew",
@@ -3536,7 +3536,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:34Z"
+      "profile_checked_at": "2026-10-04T08:54:58Z"
     },
     {
       "group_id": "imnotavillain",
@@ -3555,7 +3555,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:34Z"
+      "profile_checked_at": "2026-10-04T08:54:58Z"
     },
     {
       "group_id": "inc-ransom",
@@ -3582,7 +3582,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:35Z"
+      "profile_checked_at": "2026-10-04T08:54:59Z"
     },
     {
       "group_id": "insane",
@@ -3613,7 +3613,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:35Z"
+      "profile_checked_at": "2026-10-04T08:55:00Z"
     },
     {
       "group_id": "insomnia",
@@ -3632,7 +3632,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:36Z"
+      "profile_checked_at": "2026-10-04T08:55:00Z"
     },
     {
       "group_id": "interlock",
@@ -3651,7 +3651,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:37Z"
+      "profile_checked_at": "2026-10-04T08:55:01Z"
     },
     {
       "group_id": "irleaks",
@@ -3665,7 +3665,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:37Z"
+      "profile_checked_at": "2026-10-04T08:55:02Z"
     },
     {
       "group_id": "j-group",
@@ -3684,7 +3684,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:38Z"
+      "profile_checked_at": "2026-10-04T08:55:03Z"
     },
     {
       "group_id": "jadepuffer",
@@ -3698,7 +3698,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:39Z"
+      "profile_checked_at": "2026-10-04T08:55:03Z"
     },
     {
       "group_id": "jinn",
@@ -3712,7 +3712,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:39Z"
+      "profile_checked_at": "2026-10-04T08:55:04Z"
     },
     {
       "group_id": "juicylemon",
@@ -3726,7 +3726,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:40Z"
+      "profile_checked_at": "2026-10-04T08:55:05Z"
     },
     {
       "group_id": "kairos",
@@ -3745,7 +3745,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:41Z"
+      "profile_checked_at": "2026-10-04T08:55:05Z"
     },
     {
       "group_id": "karakurt",
@@ -3776,7 +3776,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:41Z"
+      "profile_checked_at": "2026-10-04T08:55:06Z"
     },
     {
       "group_id": "kashimaware",
@@ -3790,7 +3790,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:42Z"
+      "profile_checked_at": "2026-10-04T08:55:07Z"
     },
     {
       "group_id": "kawa4096",
@@ -3813,7 +3813,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:43Z"
+      "profile_checked_at": "2026-10-04T08:55:08Z"
     },
     {
       "group_id": "kazu",
@@ -3832,7 +3832,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:44Z"
+      "profile_checked_at": "2026-10-04T08:55:08Z"
     },
     {
       "group_id": "kill-security",
@@ -3851,7 +3851,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:44Z"
+      "profile_checked_at": "2026-10-04T08:55:09Z"
     },
     {
       "group_id": "killada",
@@ -3890,7 +3890,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:45Z"
+      "profile_checked_at": "2026-10-04T08:55:10Z"
     },
     {
       "group_id": "killsecurity-30",
@@ -3909,7 +3909,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:46Z"
+      "profile_checked_at": "2026-10-04T08:55:11Z"
     },
     {
       "group_id": "kittykatkrew",
@@ -3932,7 +3932,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:46Z"
+      "profile_checked_at": "2026-10-04T08:55:11Z"
     },
     {
       "group_id": "knight",
@@ -3955,7 +3955,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:47Z"
+      "profile_checked_at": "2026-10-04T08:55:12Z"
     },
     {
       "group_id": "kraken",
@@ -3974,7 +3974,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:47Z"
+      "profile_checked_at": "2026-10-04T08:55:13Z"
     },
     {
       "group_id": "krybit",
@@ -4005,7 +4005,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:48Z"
+      "profile_checked_at": "2026-10-04T08:55:14Z"
     },
     {
       "group_id": "kryptos",
@@ -4024,7 +4024,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:49Z"
+      "profile_checked_at": "2026-10-04T08:55:14Z"
     },
     {
       "group_id": "kyber",
@@ -4047,7 +4047,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:49Z"
+      "profile_checked_at": "2026-10-04T08:55:15Z"
     },
     {
       "group_id": "l-blog",
@@ -4066,7 +4066,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:50Z"
+      "profile_checked_at": "2026-10-04T08:55:16Z"
     },
     {
       "group_id": "la-piovra",
@@ -4089,7 +4089,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:51Z"
+      "profile_checked_at": "2026-10-04T08:55:16Z"
     },
     {
       "group_id": "lamashtu",
@@ -4108,7 +4108,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:51Z"
+      "profile_checked_at": "2026-10-04T08:55:17Z"
     },
     {
       "group_id": "lapsus-0",
@@ -4147,7 +4147,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:52Z"
+      "profile_checked_at": "2026-10-04T08:55:18Z"
     },
     {
       "group_id": "lapsus-chapter-ii",
@@ -4161,7 +4161,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:53Z"
+      "profile_checked_at": "2026-10-04T08:55:19Z"
     },
     {
       "group_id": "leak-bazaar",
@@ -4180,7 +4180,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:53Z"
+      "profile_checked_at": "2026-10-04T08:55:19Z"
     },
     {
       "group_id": "leakeddata",
@@ -4203,7 +4203,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:54Z"
+      "profile_checked_at": "2026-10-04T08:55:20Z"
     },
     {
       "group_id": "leaknet",
@@ -4222,7 +4222,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:55Z"
+      "profile_checked_at": "2026-10-04T08:55:21Z"
     },
     {
       "group_id": "leakthemall",
@@ -4236,7 +4236,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:55Z"
+      "profile_checked_at": "2026-10-04T08:55:21Z"
     },
     {
       "group_id": "leek-road",
@@ -4255,7 +4255,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:56Z"
+      "profile_checked_at": "2026-10-04T08:55:22Z"
     },
     {
       "group_id": "lilith",
@@ -4269,7 +4269,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:37:57Z"
+      "profile_checked_at": "2026-10-04T08:55:23Z"
     },
     {
       "group_id": "linkc",
@@ -4288,7 +4288,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:57Z"
+      "profile_checked_at": "2026-10-04T08:55:24Z"
     },
     {
       "group_id": "lockbit-30",
@@ -4599,7 +4599,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:58Z"
+      "profile_checked_at": "2026-10-04T08:55:24Z"
     },
     {
       "group_id": "lockbit-40",
@@ -4646,7 +4646,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:59Z"
+      "profile_checked_at": "2026-10-04T08:55:25Z"
     },
     {
       "group_id": "lockbit-50",
@@ -4665,7 +4665,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:37:59Z"
+      "profile_checked_at": "2026-10-04T08:55:26Z"
     },
     {
       "group_id": "lockfile",
@@ -4684,7 +4684,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:00Z"
+      "profile_checked_at": "2026-10-04T08:55:26Z"
     },
     {
       "group_id": "loki",
@@ -4703,7 +4703,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:01Z"
+      "profile_checked_at": "2026-10-04T08:55:27Z"
     },
     {
       "group_id": "lorenz",
@@ -4722,7 +4722,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:01Z"
+      "profile_checked_at": "2026-10-04T08:55:28Z"
     },
     {
       "group_id": "losttrust",
@@ -4741,7 +4741,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:02Z"
+      "profile_checked_at": "2026-10-04T08:55:29Z"
     },
     {
       "group_id": "lunalock",
@@ -4760,7 +4760,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:03Z"
+      "profile_checked_at": "2026-10-04T08:55:29Z"
     },
     {
       "group_id": "lynx",
@@ -4795,7 +4795,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:03Z"
+      "profile_checked_at": "2026-10-04T08:55:30Z"
     },
     {
       "group_id": "m3rx",
@@ -4814,7 +4814,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:04Z"
+      "profile_checked_at": "2026-10-04T08:55:31Z"
     },
     {
       "group_id": "maddll32",
@@ -4833,7 +4833,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:05Z"
+      "profile_checked_at": "2026-10-04T08:55:31Z"
     },
     {
       "group_id": "majinahanashi",
@@ -4856,7 +4856,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:05Z"
+      "profile_checked_at": "2026-10-04T08:55:32Z"
     },
     {
       "group_id": "makeisraelgreatagain",
@@ -4875,7 +4875,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:06Z"
+      "profile_checked_at": "2026-10-04T08:55:33Z"
     },
     {
       "group_id": "malaslocker",
@@ -4894,7 +4894,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:07Z"
+      "profile_checked_at": "2026-10-04T08:55:34Z"
     },
     {
       "group_id": "malek-team",
@@ -4917,7 +4917,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:07Z"
+      "profile_checked_at": "2026-10-04T08:55:34Z"
     },
     {
       "group_id": "mallox",
@@ -4931,7 +4931,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:08Z"
+      "profile_checked_at": "2026-10-04T08:55:35Z"
     },
     {
       "group_id": "medusa-blog",
@@ -4958,7 +4958,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:09Z"
+      "profile_checked_at": "2026-10-04T08:55:36Z"
     },
     {
       "group_id": "medusalocker",
@@ -4972,7 +4972,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:09Z"
+      "profile_checked_at": "2026-10-04T08:55:37Z"
     },
     {
       "group_id": "meow-leaks",
@@ -4995,7 +4995,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:10Z"
+      "profile_checked_at": "2026-10-04T08:55:37Z"
     },
     {
       "group_id": "meow",
@@ -5009,7 +5009,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:11Z"
+      "profile_checked_at": "2026-10-04T08:55:38Z"
     },
     {
       "group_id": "meowciety403",
@@ -5028,7 +5028,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:11Z"
+      "profile_checked_at": "2026-10-04T08:55:39Z"
     },
     {
       "group_id": "metaencryptor",
@@ -5047,7 +5047,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:12Z"
+      "profile_checked_at": "2026-10-04T08:55:39Z"
     },
     {
       "group_id": "mike-tyson",
@@ -5061,7 +5061,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:13Z"
+      "profile_checked_at": "2026-10-04T08:55:40Z"
     },
     {
       "group_id": "mimic",
@@ -5075,7 +5075,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:13Z"
+      "profile_checked_at": "2026-10-04T08:55:41Z"
     },
     {
       "group_id": "mimic-builder",
@@ -5089,7 +5089,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:14Z"
+      "profile_checked_at": "2026-10-04T08:55:42Z"
     },
     {
       "group_id": "minteye",
@@ -5112,7 +5112,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:15Z"
+      "profile_checked_at": "2026-10-04T08:55:42Z"
     },
     {
       "group_id": "mnt6",
@@ -5131,7 +5131,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:15Z"
+      "profile_checked_at": "2026-10-04T08:55:43Z"
     },
     {
       "group_id": "mogilevich",
@@ -5150,7 +5150,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:16Z"
+      "profile_checked_at": "2026-10-04T08:55:44Z"
     },
     {
       "group_id": "money-message",
@@ -5164,7 +5164,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:17Z"
+      "profile_checked_at": "2026-10-04T08:55:45Z"
     },
     {
       "group_id": "monti",
@@ -5195,7 +5195,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:17Z"
+      "profile_checked_at": "2026-10-04T08:55:45Z"
     },
     {
       "group_id": "morpheus",
@@ -5214,7 +5214,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:18Z"
+      "profile_checked_at": "2026-10-04T08:55:46Z"
     },
     {
       "group_id": "mortalkombat",
@@ -5228,7 +5228,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:19Z"
+      "profile_checked_at": "2026-10-04T08:55:47Z"
     },
     {
       "group_id": "moses-staff",
@@ -5251,7 +5251,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:19Z"
+      "profile_checked_at": "2026-10-04T08:55:47Z"
     },
     {
       "group_id": "ms13-089",
@@ -5270,7 +5270,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:20Z"
+      "profile_checked_at": "2026-10-04T08:55:48Z"
     },
     {
       "group_id": "n0n",
@@ -5289,7 +5289,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:21Z"
+      "profile_checked_at": "2026-10-04T08:55:49Z"
     },
     {
       "group_id": "nailaolocker",
@@ -5303,7 +5303,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:21Z"
+      "profile_checked_at": "2026-10-04T08:55:50Z"
     },
     {
       "group_id": "nasir",
@@ -5326,7 +5326,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:22Z"
+      "profile_checked_at": "2026-10-04T08:55:50Z"
     },
     {
       "group_id": "nb65",
@@ -5340,7 +5340,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:23Z"
+      "profile_checked_at": "2026-10-04T08:55:51Z"
     },
     {
       "group_id": "netrunner",
@@ -5359,7 +5359,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:23Z"
+      "profile_checked_at": "2026-10-04T08:55:52Z"
     },
     {
       "group_id": "nevada",
@@ -5373,7 +5373,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:24Z"
+      "profile_checked_at": "2026-10-04T08:55:53Z"
     },
     {
       "group_id": "nightsky",
@@ -5392,7 +5392,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:25Z"
+      "profile_checked_at": "2026-10-04T08:55:53Z"
     },
     {
       "group_id": "nightspire",
@@ -5411,7 +5411,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:25Z"
+      "profile_checked_at": "2026-10-04T08:55:54Z"
     },
     {
       "group_id": "nitrogen",
@@ -5430,7 +5430,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:26Z"
+      "profile_checked_at": "2026-10-04T08:55:55Z"
     },
     {
       "group_id": "no-name",
@@ -5465,7 +5465,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:27Z"
+      "profile_checked_at": "2026-10-04T08:55:55Z"
     },
     {
       "group_id": "noescape",
@@ -5484,7 +5484,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:27Z"
+      "profile_checked_at": "2026-10-04T08:55:56Z"
     },
     {
       "group_id": "nokoyawa",
@@ -5498,7 +5498,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:28Z"
+      "profile_checked_at": "2026-10-04T08:55:57Z"
     },
     {
       "group_id": "nokoyawa-11",
@@ -5512,7 +5512,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:29Z"
+      "profile_checked_at": "2026-10-04T08:55:58Z"
     },
     {
       "group_id": "nokoyawa-20",
@@ -5526,7 +5526,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:29Z"
+      "profile_checked_at": "2026-10-04T08:55:58Z"
     },
     {
       "group_id": "nova",
@@ -5553,7 +5553,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:30Z"
+      "profile_checked_at": "2026-10-04T08:55:59Z"
     },
     {
       "group_id": "nullbulge",
@@ -5588,7 +5588,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:31Z"
+      "profile_checked_at": "2026-10-04T08:56:00Z"
     },
     {
       "group_id": "obscura",
@@ -5607,7 +5607,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:31Z"
+      "profile_checked_at": "2026-10-04T08:56:00Z"
     },
     {
       "group_id": "orca",
@@ -5626,7 +5626,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:32Z"
+      "profile_checked_at": "2026-10-04T08:56:01Z"
     },
     {
       "group_id": "orion-leaks",
@@ -5645,7 +5645,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:33Z"
+      "profile_checked_at": "2026-10-04T08:56:02Z"
     },
     {
       "group_id": "orova",
@@ -5664,7 +5664,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:33Z"
+      "profile_checked_at": "2026-10-04T08:56:03Z"
     },
     {
       "group_id": "osiris",
@@ -5687,7 +5687,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:34Z"
+      "profile_checked_at": "2026-10-04T08:56:03Z"
     },
     {
       "group_id": "ox-thief",
@@ -5706,7 +5706,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:34Z"
+      "profile_checked_at": "2026-10-04T08:56:04Z"
     },
     {
       "group_id": "pacman",
@@ -5720,7 +5720,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:35Z"
+      "profile_checked_at": "2026-10-04T08:56:05Z"
     },
     {
       "group_id": "pandora",
@@ -5739,7 +5739,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:36Z"
+      "profile_checked_at": "2026-10-04T08:56:06Z"
     },
     {
       "group_id": "panzer",
@@ -5758,7 +5758,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:36Z"
+      "profile_checked_at": "2026-10-04T08:56:06Z"
     },
     {
       "group_id": "partyticket",
@@ -5772,7 +5772,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:37Z"
+      "profile_checked_at": "2026-10-04T08:56:07Z"
     },
     {
       "group_id": "payload",
@@ -5791,7 +5791,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:38Z"
+      "profile_checked_at": "2026-10-04T08:56:08Z"
     },
     {
       "group_id": "payouts-king",
@@ -5814,7 +5814,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:38Z"
+      "profile_checked_at": "2026-10-04T08:56:08Z"
     },
     {
       "group_id": "pear",
@@ -5845,7 +5845,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:39Z"
+      "profile_checked_at": "2026-10-04T08:56:09Z"
     },
     {
       "group_id": "philadelphia",
@@ -5859,7 +5859,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:40Z"
+      "profile_checked_at": "2026-10-04T08:56:10Z"
     },
     {
       "group_id": "pizzacrypts",
@@ -5873,7 +5873,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:40Z"
+      "profile_checked_at": "2026-10-04T08:56:11Z"
     },
     {
       "group_id": "pizzaransom",
@@ -5887,7 +5887,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:41Z"
+      "profile_checked_at": "2026-10-04T08:56:11Z"
     },
     {
       "group_id": "play",
@@ -5910,7 +5910,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:42Z"
+      "profile_checked_at": "2026-10-04T08:56:12Z"
     },
     {
       "group_id": "playboy-locker",
@@ -5929,7 +5929,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:42Z"
+      "profile_checked_at": "2026-10-04T08:56:13Z"
     },
     {
       "group_id": "popcorn-time",
@@ -5952,7 +5952,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:43Z"
+      "profile_checked_at": "2026-10-04T08:56:13Z"
     },
     {
       "group_id": "prestige",
@@ -5966,7 +5966,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:44Z"
+      "profile_checked_at": "2026-10-04T08:56:14Z"
     },
     {
       "group_id": "prinz-eugen",
@@ -5997,7 +5997,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:44Z"
+      "profile_checked_at": "2026-10-04T08:56:15Z"
     },
     {
       "group_id": "pryx",
@@ -6016,7 +6016,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:45Z"
+      "profile_checked_at": "2026-10-04T08:56:16Z"
     },
     {
       "group_id": "putin",
@@ -6030,7 +6030,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:46Z"
+      "profile_checked_at": "2026-10-04T08:56:16Z"
     },
     {
       "group_id": "qilin",
@@ -6053,7 +6053,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:46Z"
+      "profile_checked_at": "2026-10-04T08:56:17Z"
     },
     {
       "group_id": "qiulong",
@@ -6072,7 +6072,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:47Z"
+      "profile_checked_at": "2026-10-04T08:56:18Z"
     },
     {
       "group_id": "quantum-locker",
@@ -6091,7 +6091,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:48Z"
+      "profile_checked_at": "2026-10-04T08:56:18Z"
     },
     {
       "group_id": "ra-group",
@@ -6122,7 +6122,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:48Z"
+      "profile_checked_at": "2026-10-04T08:56:19Z"
     },
     {
       "group_id": "rabbit-hole",
@@ -6141,7 +6141,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:49Z"
+      "profile_checked_at": "2026-10-04T08:56:20Z"
     },
     {
       "group_id": "radar",
@@ -6168,7 +6168,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:50Z"
+      "profile_checked_at": "2026-10-04T08:56:21Z"
     },
     {
       "group_id": "radiant-group",
@@ -6187,7 +6187,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:51Z"
+      "profile_checked_at": "2026-10-04T08:56:21Z"
     },
     {
       "group_id": "ragnar-locker",
@@ -6206,7 +6206,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:51Z"
+      "profile_checked_at": "2026-10-04T08:56:22Z"
     },
     {
       "group_id": "ralord",
@@ -6233,7 +6233,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:52Z"
+      "profile_checked_at": "2026-10-04T08:56:23Z"
     },
     {
       "group_id": "rancoz",
@@ -6264,7 +6264,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:52Z"
+      "profile_checked_at": "2026-10-04T08:56:23Z"
     },
     {
       "group_id": "ranion",
@@ -6287,7 +6287,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:53Z"
+      "profile_checked_at": "2026-10-04T08:56:24Z"
     },
     {
       "group_id": "ransomboggs",
@@ -6301,7 +6301,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:54Z"
+      "profile_checked_at": "2026-10-04T08:56:25Z"
     },
     {
       "group_id": "ransomcortex",
@@ -6320,7 +6320,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:54Z"
+      "profile_checked_at": "2026-10-04T08:56:26Z"
     },
     {
       "group_id": "ransomedvc",
@@ -6347,7 +6347,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:55Z"
+      "profile_checked_at": "2026-10-04T08:56:26Z"
     },
     {
       "group_id": "ransomexx",
@@ -6358,11 +6358,10 @@
       "last_seen": "November 2022",
       "profile_url": "https://www.watchguard.com/wgrd-security-hub/ransomware-tracker/ransomexx",
       "leak_sites": [],
-      "profile_status": "offline",
+      "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
-      "leak_sites_status": "profile_offline",
-      "profile_error": "network_error",
-      "profile_checked_at": "2026-10-03T08:38:56Z"
+      "leak_sites_status": "extortion_section_missing",
+      "profile_checked_at": "2026-10-04T08:56:27Z"
     },
     {
       "group_id": "ransomexx2",
@@ -6376,7 +6375,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:38:56Z"
+      "profile_checked_at": "2026-10-04T08:56:28Z"
     },
     {
       "group_id": "ransomhouse",
@@ -6395,7 +6394,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:57Z"
+      "profile_checked_at": "2026-10-04T08:56:29Z"
     },
     {
       "group_id": "ransomhub",
@@ -6426,7 +6425,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:58Z"
+      "profile_checked_at": "2026-10-04T08:56:29Z"
     },
     {
       "group_id": "rebornvc",
@@ -6445,7 +6444,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:58Z"
+      "profile_checked_at": "2026-10-04T08:56:30Z"
     },
     {
       "group_id": "red",
@@ -6464,7 +6463,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:38:59Z"
+      "profile_checked_at": "2026-10-04T08:56:31Z"
     },
     {
       "group_id": "redact",
@@ -6487,7 +6486,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:00Z"
+      "profile_checked_at": "2026-10-04T08:56:31Z"
     },
     {
       "group_id": "redalert",
@@ -6501,7 +6500,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:00Z"
+      "profile_checked_at": "2026-10-04T08:56:32Z"
     },
     {
       "group_id": "rensenware",
@@ -6515,7 +6514,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:01Z"
+      "profile_checked_at": "2026-10-04T08:56:33Z"
     },
     {
       "group_id": "reynolds",
@@ -6534,7 +6533,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:02Z"
+      "profile_checked_at": "2026-10-04T08:56:34Z"
     },
     {
       "group_id": "rhysida",
@@ -6557,7 +6556,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:02Z"
+      "profile_checked_at": "2026-10-04T08:56:34Z"
     },
     {
       "group_id": "robbinhood",
@@ -6571,7 +6570,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:03Z"
+      "profile_checked_at": "2026-10-04T08:56:35Z"
     },
     {
       "group_id": "rook",
@@ -6590,7 +6589,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:04Z"
+      "profile_checked_at": "2026-10-04T08:56:36Z"
     },
     {
       "group_id": "root",
@@ -6604,7 +6603,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:04Z"
+      "profile_checked_at": "2026-10-04T08:56:36Z"
     },
     {
       "group_id": "royal",
@@ -6643,7 +6642,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:05Z"
+      "profile_checked_at": "2026-10-04T08:56:37Z"
     },
     {
       "group_id": "ruransom",
@@ -6657,7 +6656,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:06Z"
+      "profile_checked_at": "2026-10-04T08:56:38Z"
     },
     {
       "group_id": "run-some-wares",
@@ -6684,7 +6683,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:06Z"
+      "profile_checked_at": "2026-10-04T08:56:39Z"
     },
     {
       "group_id": "safepay",
@@ -6707,7 +6706,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:07Z"
+      "profile_checked_at": "2026-10-04T08:56:39Z"
     },
     {
       "group_id": "sarcoma",
@@ -6782,7 +6781,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:08Z"
+      "profile_checked_at": "2026-10-04T08:56:40Z"
     },
     {
       "group_id": "scarecrow-2022",
@@ -6796,7 +6795,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:08Z"
+      "profile_checked_at": "2026-10-04T08:56:41Z"
     },
     {
       "group_id": "scattered-lapsus-hunters",
@@ -6823,7 +6822,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:09Z"
+      "profile_checked_at": "2026-10-04T08:56:42Z"
     },
     {
       "group_id": "secp0",
@@ -6850,7 +6849,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:10Z"
+      "profile_checked_at": "2026-10-04T08:56:42Z"
     },
     {
       "group_id": "securotrop",
@@ -6869,7 +6868,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:10Z"
+      "profile_checked_at": "2026-10-04T08:56:43Z"
     },
     {
       "group_id": "sensayq",
@@ -6892,7 +6891,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:11Z"
+      "profile_checked_at": "2026-10-04T08:56:44Z"
     },
     {
       "group_id": "settra",
@@ -6911,7 +6910,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:11Z"
+      "profile_checked_at": "2026-10-04T08:56:44Z"
     },
     {
       "group_id": "sevyware",
@@ -6930,7 +6929,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:12Z"
+      "profile_checked_at": "2026-10-04T08:56:45Z"
     },
     {
       "group_id": "shadow",
@@ -6961,7 +6960,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:13Z"
+      "profile_checked_at": "2026-10-04T08:56:46Z"
     },
     {
       "group_id": "shadowbyt3",
@@ -6996,7 +6995,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:13Z"
+      "profile_checked_at": "2026-10-04T08:56:46Z"
     },
     {
       "group_id": "shiba",
@@ -7015,7 +7014,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:14Z"
+      "profile_checked_at": "2026-10-04T08:56:47Z"
     },
     {
       "group_id": "shinyhunters",
@@ -7042,7 +7041,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:15Z"
+      "profile_checked_at": "2026-10-04T08:56:48Z"
     },
     {
       "group_id": "sicari",
@@ -7081,7 +7080,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:16Z"
+      "profile_checked_at": "2026-10-04T08:56:49Z"
     },
     {
       "group_id": "siegedsec",
@@ -7112,7 +7111,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:16Z"
+      "profile_checked_at": "2026-10-04T08:56:49Z"
     },
     {
       "group_id": "silent",
@@ -7131,7 +7130,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:17Z"
+      "profile_checked_at": "2026-10-04T08:56:50Z"
     },
     {
       "group_id": "sinobi",
@@ -7174,7 +7173,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:17Z"
+      "profile_checked_at": "2026-10-04T08:56:51Z"
     },
     {
       "group_id": "skira-team",
@@ -7193,7 +7192,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:18Z"
+      "profile_checked_at": "2026-10-04T08:56:52Z"
     },
     {
       "group_id": "slug",
@@ -7212,7 +7211,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:19Z"
+      "profile_checked_at": "2026-10-04T08:56:52Z"
     },
     {
       "group_id": "snatch",
@@ -7247,7 +7246,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:19Z"
+      "profile_checked_at": "2026-10-04T08:56:53Z"
     },
     {
       "group_id": "somnia",
@@ -7261,7 +7260,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:20Z"
+      "profile_checked_at": "2026-10-04T08:56:54Z"
     },
     {
       "group_id": "sonshi",
@@ -7275,7 +7274,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:21Z"
+      "profile_checked_at": "2026-10-04T08:56:55Z"
     },
     {
       "group_id": "sorry-worm",
@@ -7289,7 +7288,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:21Z"
+      "profile_checked_at": "2026-10-04T08:56:55Z"
     },
     {
       "group_id": "sovcali",
@@ -7308,7 +7307,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:22Z"
+      "profile_checked_at": "2026-10-04T08:56:56Z"
     },
     {
       "group_id": "space-bears",
@@ -7327,7 +7326,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:23Z"
+      "profile_checked_at": "2026-10-04T08:56:57Z"
     },
     {
       "group_id": "spirals",
@@ -7346,7 +7345,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:23Z"
+      "profile_checked_at": "2026-10-04T08:56:58Z"
     },
     {
       "group_id": "spy-corporate",
@@ -7365,7 +7364,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:24Z"
+      "profile_checked_at": "2026-10-04T08:56:58Z"
     },
     {
       "group_id": "stampado",
@@ -7379,7 +7378,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:25Z"
+      "profile_checked_at": "2026-10-04T08:56:59Z"
     },
     {
       "group_id": "storm",
@@ -7398,7 +7397,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:25Z"
+      "profile_checked_at": "2026-10-04T08:57:00Z"
     },
     {
       "group_id": "stormous",
@@ -7429,7 +7428,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:26Z"
+      "profile_checked_at": "2026-10-04T08:57:00Z"
     },
     {
       "group_id": "team-xxx",
@@ -7448,7 +7447,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:27Z"
+      "profile_checked_at": "2026-10-04T08:57:01Z"
     },
     {
       "group_id": "tengu",
@@ -7471,7 +7470,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:27Z"
+      "profile_checked_at": "2026-10-04T08:57:02Z"
     },
     {
       "group_id": "termite",
@@ -7490,7 +7489,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:28Z"
+      "profile_checked_at": "2026-10-04T08:57:03Z"
     },
     {
       "group_id": "gentlemen",
@@ -7513,7 +7512,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:29Z"
+      "profile_checked_at": "2026-10-04T08:57:03Z"
     },
     {
       "group_id": "green-blood-group",
@@ -7536,7 +7535,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:29Z"
+      "profile_checked_at": "2026-10-04T08:57:04Z"
     },
     {
       "group_id": "syndicate",
@@ -7555,7 +7554,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:30Z"
+      "profile_checked_at": "2026-10-04T08:57:05Z"
     },
     {
       "group_id": "threat-market",
@@ -7574,7 +7573,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:31Z"
+      "profile_checked_at": "2026-10-04T08:57:05Z"
     },
     {
       "group_id": "threeam",
@@ -7593,7 +7592,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:31Z"
+      "profile_checked_at": "2026-10-04T08:57:06Z"
     },
     {
       "group_id": "timc",
@@ -7612,7 +7611,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:32Z"
+      "profile_checked_at": "2026-10-04T08:57:07Z"
     },
     {
       "group_id": "titan",
@@ -7643,7 +7642,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:33Z"
+      "profile_checked_at": "2026-10-04T08:57:08Z"
     },
     {
       "group_id": "tortilla",
@@ -7657,7 +7656,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:33Z"
+      "profile_checked_at": "2026-10-04T08:57:08Z"
     },
     {
       "group_id": "toufan",
@@ -7676,7 +7675,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:34Z"
+      "profile_checked_at": "2026-10-04T08:57:09Z"
     },
     {
       "group_id": "tridentlocker",
@@ -7695,7 +7694,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:35Z"
+      "profile_checked_at": "2026-10-04T08:57:10Z"
     },
     {
       "group_id": "trigona",
@@ -7726,7 +7725,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:35Z"
+      "profile_checked_at": "2026-10-04T08:57:10Z"
     },
     {
       "group_id": "trinitylock",
@@ -7749,7 +7748,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:36Z"
+      "profile_checked_at": "2026-10-04T08:57:11Z"
     },
     {
       "group_id": "triple-x",
@@ -7768,7 +7767,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:37Z"
+      "profile_checked_at": "2026-10-04T08:57:12Z"
     },
     {
       "group_id": "trisec",
@@ -7795,7 +7794,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:37Z"
+      "profile_checked_at": "2026-10-04T08:57:13Z"
     },
     {
       "group_id": "u-bomb",
@@ -7826,7 +7825,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:38Z"
+      "profile_checked_at": "2026-10-04T08:57:13Z"
     },
     {
       "group_id": "underground",
@@ -7845,7 +7844,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:39Z"
+      "profile_checked_at": "2026-10-04T08:57:14Z"
     },
     {
       "group_id": "unsafe",
@@ -7864,7 +7863,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:39Z"
+      "profile_checked_at": "2026-10-04T08:57:15Z"
     },
     {
       "group_id": "v-vendetta",
@@ -7899,7 +7898,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:40Z"
+      "profile_checked_at": "2026-10-04T08:57:16Z"
     },
     {
       "group_id": "valencia",
@@ -7918,7 +7917,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:41Z"
+      "profile_checked_at": "2026-10-04T08:57:16Z"
     },
     {
       "group_id": "vanhelsing",
@@ -7945,7 +7944,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:41Z"
+      "profile_checked_at": "2026-10-04T08:57:17Z"
     },
     {
       "group_id": "vanir-group",
@@ -7964,7 +7963,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:42Z"
+      "profile_checked_at": "2026-10-04T08:57:18Z"
     },
     {
       "group_id": "vect",
@@ -7983,7 +7982,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:43Z"
+      "profile_checked_at": "2026-10-04T08:57:18Z"
     },
     {
       "group_id": "vect-20",
@@ -8002,7 +8001,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:43Z"
+      "profile_checked_at": "2026-10-04T08:57:19Z"
     },
     {
       "group_id": "venus",
@@ -8016,7 +8015,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:44Z"
+      "profile_checked_at": "2026-10-04T08:57:20Z"
     },
     {
       "group_id": "vexy",
@@ -8035,7 +8034,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:45Z"
+      "profile_checked_at": "2026-10-04T08:57:21Z"
     },
     {
       "group_id": "vice-society",
@@ -8078,7 +8077,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:45Z"
+      "profile_checked_at": "2026-10-04T08:57:21Z"
     },
     {
       "group_id": "virlock",
@@ -8092,7 +8091,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:46Z"
+      "profile_checked_at": "2026-10-04T08:57:22Z"
     },
     {
       "group_id": "wa",
@@ -8111,7 +8110,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:47Z"
+      "profile_checked_at": "2026-10-04T08:57:23Z"
     },
     {
       "group_id": "wagner-0",
@@ -8125,7 +8124,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:47Z"
+      "profile_checked_at": "2026-10-04T08:57:23Z"
     },
     {
       "group_id": "wallstreet",
@@ -8144,7 +8143,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:48Z"
+      "profile_checked_at": "2026-10-04T08:57:24Z"
     },
     {
       "group_id": "warlock",
@@ -8171,7 +8170,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:49Z"
+      "profile_checked_at": "2026-10-04T08:57:25Z"
     },
     {
       "group_id": "werewolves",
@@ -8194,7 +8193,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:49Z"
+      "profile_checked_at": "2026-10-04T08:57:26Z"
     },
     {
       "group_id": "weyhro",
@@ -8213,7 +8212,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:50Z"
+      "profile_checked_at": "2026-10-04T08:57:26Z"
     },
     {
       "group_id": "whispergate",
@@ -8227,7 +8226,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:51Z"
+      "profile_checked_at": "2026-10-04T08:57:27Z"
     },
     {
       "group_id": "white-lock",
@@ -8241,7 +8240,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:51Z"
+      "profile_checked_at": "2026-10-04T08:57:28Z"
     },
     {
       "group_id": "wikileaksv2",
@@ -8260,7 +8259,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:52Z"
+      "profile_checked_at": "2026-10-04T08:57:29Z"
     },
     {
       "group_id": "world-leaks",
@@ -8283,7 +8282,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:52Z"
+      "profile_checked_at": "2026-10-04T08:57:29Z"
     },
     {
       "group_id": "x3",
@@ -8297,7 +8296,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:53Z"
+      "profile_checked_at": "2026-10-04T08:57:30Z"
     },
     {
       "group_id": "xp95",
@@ -8316,7 +8315,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:54Z"
+      "profile_checked_at": "2026-10-04T08:57:31Z"
     },
     {
       "group_id": "xpl0itrs",
@@ -8335,7 +8334,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:54Z"
+      "profile_checked_at": "2026-10-04T08:57:32Z"
     },
     {
       "group_id": "xransom",
@@ -8349,7 +8348,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:55Z"
+      "profile_checked_at": "2026-10-04T08:57:32Z"
     },
     {
       "group_id": "yanluowang",
@@ -8363,7 +8362,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:56Z"
+      "profile_checked_at": "2026-10-04T08:57:33Z"
     },
     {
       "group_id": "yashma",
@@ -8377,7 +8376,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:56Z"
+      "profile_checked_at": "2026-10-04T08:57:34Z"
     },
     {
       "group_id": "yurei",
@@ -8396,7 +8395,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:57Z"
+      "profile_checked_at": "2026-10-04T08:57:34Z"
     },
     {
       "group_id": "zawoo",
@@ -8415,7 +8414,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:39:58Z"
+      "profile_checked_at": "2026-10-04T08:57:35Z"
     },
     {
       "group_id": "zeoticus",
@@ -8429,7 +8428,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:58Z"
+      "profile_checked_at": "2026-10-04T08:57:36Z"
     },
     {
       "group_id": "zeoticus-20",
@@ -8443,7 +8442,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "extortion_section_missing",
-      "profile_checked_at": "2026-10-03T08:39:59Z"
+      "profile_checked_at": "2026-10-04T08:57:37Z"
     },
     {
       "group_id": "zero-tolerance",
@@ -8462,7 +8461,7 @@
       "profile_status": "ok",
       "leak_sites_scope": "extortion_links",
       "leak_sites_status": "ok",
-      "profile_checked_at": "2026-10-03T08:40:00Z"
+      "profile_checked_at": "2026-10-04T08:57:37Z"
     }
   ]
 }
