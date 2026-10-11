@@ -44,9 +44,17 @@ jobs:
         working-directory: site
         run: npm ci
 
+      - name: Test website scripts
+        working-directory: site
+        run: npm test
+
       - name: Build Astro website
         working-directory: site
         run: npm run build
+
+      - name: Verify build output
+        working-directory: site
+        run: npm run verify
 
       - name: Prepare public Pages artifact
         run: python scripts/prepare_pages.py

@@ -74,6 +74,12 @@ const metrics = [
     </nav>
 
     <div id="loading-state" class="message-state" role="status">Loading victim data…</div>
+    <noscript>
+      <div class="message-state">
+        <strong>JavaScript is required.</strong>
+        <span>The victim claims table is built in your browser from the published dataset.</span>
+      </div>
+    </noscript>
     <div id="error-state" class="message-state error-state" role="alert" hidden>
       <strong>Victim data could not be loaded.</strong>
       <span id="error-message">Try again later.</span>
