@@ -8,11 +8,37 @@ from pathlib import Path
 from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
+SCRIPTS_DIR = ROOT / "scripts"
 
-import refresh_groups
-import scrape_victims
-from http_client import FetchError, _validate_public_target, normalize_url
+import importlib.util
+
+
+def _load_module(module_name: str):
+    module_path = SCRIPTS_DIR / f"{module_name}.py"
+    if not module_path.exists():
+        raise ImportError(f"Module {module_name!r} not found at {module_path}")
+
+    existing = sys.modules.get(module_name)
+    if existing is not None:
+        existing_path = getattr(existing, "__file__", None)
+        if existing_path and Path(existing_path).resolve() == module_path.resolve():
+            return existing
+
+    spec = importlib.util.spec_from_file_location(module_name, module_path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not load module {module_name!r} from {module_path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+refresh_groups = _load_module("refresh_groups")
+scrape_victims = _load_module("scrape_victims")
+http_client = _load_module("http_client")
+FetchError = http_client.FetchError
+_validate_public_target = http_client._validate_public_target
+normalize_url = http_client.normalize_url
 
 
 FIXTURES = ROOT / "tests" / "fixtures"
@@ -579,13 +605,18 @@ class VictimParserTests(unittest.TestCase):
 
 class StaticSiteTests(unittest.TestCase):
     def test_data_and_assets_use_project_relative_paths(self) -> None:
-        html = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
-        javascript = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
-        self.assertIn('href="./styles.css"', html)
-        self.assertIn('src="./app.js"', html)
+        html = (ROOT / "site" / "src" / "pages" / "index.astro").read_text(encoding="utf-8")
+        layout = (ROOT / "site" / "src" / "layouts" / "Base.astro").read_text(encoding="utf-8")
+        javascript = (ROOT / "site" / "src" / "scripts" / "dashboard.js").read_text(encoding="utf-8")
+        config = (ROOT / "site" / "astro.config.mjs").read_text(encoding="utf-8")
+        self.assertIn('import "../styles/global.css"', layout)
+        self.assertIn('src="../scripts/dashboard.js"', html)
+        self.assertIn('base: "/ransomwatch"', config)
+        self.assertIn('import.meta.env.BASE_URL', layout)
+        self.assertIn('data-victims-url={`${base}data/victims.json`}', layout)
         self.assertIn('id="table-pagination"', html)
         self.assertIn('id="page-status"', html)
-        self.assertIn('const DATA_URL = "./data/victims.json";', javascript)
+        self.assertIn('const DATA_URL = document.querySelector("#main").dataset.victimsUrl;', javascript)
         self.assertIn("const PAGE_SIZE = 100;", javascript)
         self.assertIn("const pageItems = items.slice(startIndex, startIndex + PAGE_SIZE);", javascript)
         self.assertIn('elements.previousPage.addEventListener("click"', javascript)
@@ -594,7 +625,7 @@ class StaticSiteTests(unittest.TestCase):
         self.assertNotIn("function reviewSightings()", javascript)
         self.assertIn("textContent = value", javascript)
         self.assertIn("View note and listing details", javascript)
-        self.assertIn("./data/victims.json", javascript)
+        self.assertIn("fetch(DATA_URL", javascript)
         self.assertNotIn("directly below an organization’s name", html)
         self.assertNotIn("RETAINED FOR INSPECTION", html)
         self.assertNotIn("Headlines and ambiguous listings", html)
@@ -605,7 +636,8 @@ class StaticSiteTests(unittest.TestCase):
         self.assertNotIn("COLLECTION HEALTH", html)
         self.assertNotIn("Source coverage", html)
         for metric_id in ("metric-total", "metric-listed", "metric-groups", "metric-sources", "updated-at"):
-            self.assertIn(f'id="{metric_id}"', html)
+            self.assertIn(f'#{metric_id}', javascript)
+        self.assertIn('id={`metric-${id}`}', html)
         self.assertIn("up to the first 25 listing pages", html)
         self.assertNotIn("WatchGuard", html)
         self.assertNotIn("WatchGuard", javascript)

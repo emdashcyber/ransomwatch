@@ -46,13 +46,17 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/refresh_groups.py
 python scripts/scrape_victims.py
-python -m http.server 8000 --directory site
+python scripts/prepare_pages.py --data-only
+cd site
+npm install
+npm run dev
 ~~~
 
-Then open http://localhost:8000. Run the fixture checks with:
+Then open http://localhost:4321/ransomwatch/. Run the dashboard and fixture checks with:
 
 ~~~sh
 python -m unittest discover -s tests -v
+(cd site && npm test && npm run build)
 ~~~
 
 ## Project contents
@@ -61,5 +65,5 @@ python -m unittest discover -s tests -v
 - .github/workflows/scrape-victims.yml crawls the catalog, commits sightings, and deploys GitHub Pages.
 - .github/workflows/publish-pages.yml publishes dashboard changes without crawling leak sites.
 - scripts/ contains the collectors, bounded network/HTML helpers, and a Pages artifact builder that omits upstream profile links.
-- site/ contains the framework-free dashboard and generated JSON.
+- site/ contains the Astro dashboard (EmDash Cyber theme) and generated JSON.
 - tests/fixtures/ contains small HTML examples used by parser tests.

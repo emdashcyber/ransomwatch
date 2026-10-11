@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 from pathlib import Path
@@ -29,20 +30,31 @@ def strip_profile_links(value):
     return value
 
 
-def main() -> None:
-    if OUTPUT.exists():
-        shutil.rmtree(OUTPUT)
-    (OUTPUT / "data").mkdir(parents=True)
-
-    for filename in ("index.html", "app.js", "styles.css"):
-        shutil.copy2(SITE / filename, OUTPUT / filename)
-
+def prepare_data(destination: Path) -> None:
     data = json.loads((SITE / "data" / "victims.json").read_text(encoding="utf-8"))
     public_data = strip_profile_links(data)
-    (OUTPUT / "data" / "victims.json").write_text(
+    destination.mkdir(parents=True, exist_ok=True)
+    (destination / "victims.json").write_text(
         json.dumps(public_data, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data-only", action="store_true")
+    args = parser.parse_args()
+    if args.data_only:
+        prepare_data(SITE / "public" / "data")
+        return
+
+    build = SITE / "dist"
+    if not (build / "index.html").is_file():
+        parser.error("Astro build is missing; run npm run build in site first.")
+    if OUTPUT.exists():
+        shutil.rmtree(OUTPUT)
+    shutil.copytree(build, OUTPUT, ignore=shutil.ignore_patterns("data"))
+    prepare_data(OUTPUT / "data")
     print(f"Prepared public Pages artifact at {OUTPUT}")
 
 

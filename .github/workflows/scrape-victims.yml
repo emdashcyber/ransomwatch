@@ -82,6 +82,21 @@ jobs:
             git push
           fi
 
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install website dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build Astro website
+        working-directory: site
+        run: npm run build
+
       - name: Prepare public Pages artifact
         run: python scripts/prepare_pages.py
 

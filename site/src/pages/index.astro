@@ -1,0 +1,107 @@
+---
+import Base from "../layouts/Base.astro";
+
+const metrics = [
+  { id: "total", label: "Historical victim claims", foot: "Across all tracked groups", tone: "" },
+  { id: "listed", label: "Currently listed", foot: "On the latest successful crawl", tone: "good" },
+  { id: "groups", label: "Groups tracked", foot: "Ransomware groups with listings", tone: "accent" },
+  { id: "sources", label: "Sources tracked", foot: "Leak-site endpoints", tone: "" },
+];
+---
+<Base
+  title="Ransomwatch: ransomware leak-site victim claims | EmDash Cyber"
+  description="A public index of organization names claimed on ransomware group leak sites."
+>
+  <section class="hero" aria-label="Dashboard overview">
+    <p class="eyebrow">Public threat intelligence</p>
+    <h1>Ransomware victim claims, tracked over time</h1>
+    <p class="lede">
+      A record of organizations named on ransomware group leak sites, gathered from publicly available group and listing information.
+    </p>
+    <p class="claim-note">
+      <strong>Threat actor claims, not confirmation.</strong> Listings are claims published by threat actors. Seeing an organization here does not confirm that a data breach occurred or that data was stolen.
+    </p>
+    <p class="hero-meta"><span><span class="live-dot"></span><span id="updated-at">Loading update time…</span></span></p>
+  </section>
+
+  <section class="metric-grid" aria-label="Dataset overview">
+    {metrics.map(({ id, label, foot, tone }) => (
+      <article class={`metric-card ${tone}`.trim()}>
+        <span class="metric-label">{label}</span>
+        <strong class="metric-value" id={`metric-${id}`}>—</strong>
+        <span class="metric-foot">{foot}</span>
+      </article>
+    ))}
+  </section>
+
+  <section aria-labelledby="victims-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Observed organizations</p>
+        <h2 id="victims-title">Victim claims</h2>
+      </div>
+      <p id="result-count" class="result-count"></p>
+    </div>
+
+    <div class="filter-panel" role="search">
+      <label class="filter-search">
+        <span>Search</span>
+        <input id="search-input" type="search" placeholder="Organization, group, country or sector" autocomplete="off" />
+      </label>
+      <label>
+        <span>Group</span>
+        <select id="group-filter"><option value="">All groups</option></select>
+      </label>
+      <label>
+        <span>Country</span>
+        <select id="country-filter"><option value="">All countries</option></select>
+      </label>
+      <label>
+        <span>Listing state</span>
+        <select id="state-filter">
+          <option value="">All states</option>
+          <option value="listed">Currently listed</option>
+          <option value="not_seen">No longer seen</option>
+          <option value="unknown">Unknown / stale</option>
+        </select>
+      </label>
+    </div>
+
+    <nav id="table-pagination" class="table-pagination" aria-label="Victim claim pages" hidden>
+      <button id="previous-page" type="button">Previous</button>
+      <span id="page-status" aria-live="polite"></span>
+      <button id="next-page" type="button">Next</button>
+    </nav>
+
+    <div id="loading-state" class="message-state" role="status">Loading victim data…</div>
+    <div id="error-state" class="message-state error-state" role="alert" hidden>
+      <strong>Victim data could not be loaded.</strong>
+      <span id="error-message">Try again later.</span>
+    </div>
+    <div id="empty-state" class="message-state" hidden>
+      <strong id="empty-title">No matching sightings</strong>
+      <span id="empty-copy">Change a filter or clear the search.</span>
+    </div>
+
+    <div id="table-wrap" class="table-wrap" hidden>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Organization</th>
+            <th scope="col">Group</th>
+            <th scope="col">Reported date</th>
+            <th scope="col">Country</th>
+            <th scope="col">Sector</th>
+            <th scope="col">Last observed</th>
+            <th scope="col">Listing state</th>
+          </tr>
+        </thead>
+        <tbody id="victim-rows"></tbody>
+      </table>
+    </div>
+    <p class="data-footnote">
+      Reported dates, countries, and sectors are shown as they appear on the listing when provided. “Last observed” is when this project last saw the entry. The crawler checks up to the first 25 listing pages for active groups; entries not found in those pages remain unknown. Historical sightings are retained. Optional details are claims shown by the threat actor, not independently verified. Metadata only; no leaked files are stored or linked.
+    </p>
+  </section>
+  <script src="../scripts/dashboard.js"></script>
+</Base>
