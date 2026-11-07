@@ -154,14 +154,14 @@ select, input[type="search"] {
 .filter-search { grid-column: 1 / -1; }
 
 .table-pagination {
-  display: flex; align-items: center; justify-content: flex-end; gap: 0.6rem;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.6rem;
   font-size: 0.875rem; color: var(--muted); margin-bottom: 0.5rem;
 }
-.table-pagination button {
+.table-pagination button, .dashboard-actions button, .message-state button {
   font: inherit; font-size: 0.85rem; padding: 0.4rem 0.9rem; border-radius: 8px;
   border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer;
 }
-.table-pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+.table-pagination button:disabled, .dashboard-actions button:disabled, .message-state button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .table-wrap {
   border: 1px solid var(--border); border-radius: var(--radius);
@@ -230,3 +230,6 @@ summary { cursor: pointer; font: 600 0.78rem var(--font-sans); color: var(--acce
 @media (forced-colors: active) {
   .status-pill { border: 1px solid CanvasText; }
 }
+
+.dashboard-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.message-state button { justify-self: center; margin-top: 0.5rem; }

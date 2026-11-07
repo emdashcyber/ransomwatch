@@ -10,7 +10,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "node --check src/scripts/dashboard.js && node --check src/scripts/classify.js && node tests/test_dashboard.js",
+    "test": "node --check src/scripts/dashboard.js && node --check src/scripts/classify.js && node tests/test_dashboard.js && node --test tests/navigation.test.mjs",
     "verify": "node --test tests/verify-build.mjs"
   },
   "dependencies": {

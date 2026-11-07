@@ -24,6 +24,7 @@ const metrics = [
     <p class="hero-meta"><span><span class="live-dot"></span><span id="updated-at">Loading update time…</span></span></p>
   </section>
 
+  <p class="data-footnote">Dataset-wide totals, before search and filters.</p>
   <section class="metric-grid" aria-label="Dataset overview">
     {metrics.map(({ id, label, foot, tone }) => (
       <article class={`metric-card ${tone}`.trim()}>
@@ -67,13 +68,18 @@ const metrics = [
       </label>
     </div>
 
+    <div class="dashboard-actions">
+      <button id="clear-filters" type="button">Clear filters</button>
+      <button id="refresh-data" type="button">Refresh</button>
+    </div>
+    <p id="view-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
     <nav id="table-pagination" class="table-pagination" aria-label="Victim claim pages" hidden>
       <button id="previous-page" type="button">Previous</button>
-      <span id="page-status" aria-live="polite"></span>
+      <span id="page-status"></span>
       <button id="next-page" type="button">Next</button>
     </nav>
 
-    <div id="loading-state" class="message-state" role="status">Loading victim data…</div>
+    <div id="loading-state" class="message-state">Loading victim data…</div>
     <noscript>
       <div class="message-state">
         <strong>JavaScript is required.</strong>
@@ -83,10 +89,12 @@ const metrics = [
     <div id="error-state" class="message-state error-state" role="alert" hidden>
       <strong>Victim data could not be loaded.</strong>
       <span id="error-message">Try again later.</span>
+      <button id="retry-data" type="button">Retry</button>
     </div>
     <div id="empty-state" class="message-state" hidden>
       <strong id="empty-title">No matching sightings</strong>
       <span id="empty-copy">Change a filter or clear the search.</span>
+      <button id="empty-clear" type="button">Clear filters</button>
     </div>
 
     <div id="table-wrap" class="table-wrap" hidden>

@@ -1,5 +1,9 @@
 import { normalizedState, parseSortDate, postType, usableOrganizationName } from "./classify.js";
 
+import { parseView, viewURL, searchDebounce } from "./view-state.js";
+import { latestRequest } from "./request.js";
+
+export function startDashboard({ document, window, fetch, Option, timers }) {
 const DATA_URL = document.querySelector("#main").dataset.victimsUrl;
 
 const elements = {
@@ -25,10 +29,17 @@ const elements = {
   groups: document.querySelector("#metric-groups"),
   sources: document.querySelector("#metric-sources"),
   updated: document.querySelector("#updated-at"),
+  status: document.querySelector("#view-status"),
+  refresh: document.querySelector("#refresh-data"),
+  retry: document.querySelector("#retry-data"),
+  clear: document.querySelector("#clear-filters"),
+  emptyClear: document.querySelector("#empty-clear"),
 };
 
 let dataset = null;
-let currentPage = 1;
+let view = parseView(new URL(window.location.href).searchParams);
+let pending = false;
+let failure = "";
 const PAGE_SIZE = 100;
 
 function setText(element, value) {
@@ -101,6 +112,40 @@ function populateFilters() {
     "All countries",
   );
 }
+
+function syncControls() {
+  elements.search.value = view.q;
+  for (const key of ["group", "country"]) {
+    const select = elements[key];
+    // A missing choice remains an explicit filter instead of broadening results.
+    for (const option of [...select.options]) if (option.dataset.unavailable) option.remove();
+    if (view[key] && ![...select.options].some(option => option.value === view[key])) {
+      const option = new Option(view[key] + " (unavailable)", view[key]);
+      option.dataset.unavailable = "true";
+      select.add(option);
+    }
+    select.value = view[key];
+  }
+  elements.state.value = view.state;
+}
+
+function writeURL(replace = false) {
+  const url = viewURL(window.location.href, view);
+  if (url !== window.location.pathname + window.location.search + window.location.hash) {
+    window.history[replace ? "replaceState" : "pushState"](null, "", url);
+  }
+}
+
+function changeView(patch, replace = false) {
+  search.cancel();
+  const draft = elements.search.value;
+  const page = draft !== view.q ? 1 : (patch.page ?? view.page);
+  view = { ...view, q: draft, ...patch, page };
+  syncControls();
+  writeURL(replace);
+  renderTable();
+}
+const search = searchDebounce(q => changeView({ q, page: 1 }, true), timers);
 
 function searchText(item) {
   return [
@@ -226,10 +271,8 @@ function makeRow(item) {
 }
 
 function filteredSightings() {
-  const query = elements.search.value.trim().toLocaleLowerCase();
-  const group = elements.group.value;
-  const country = elements.country.value;
-  const state = elements.state.value;
+  const query = view.q.trim().toLocaleLowerCase();
+  const { group, country, state } = view;
   return victimSightings()
     .filter((item) => !query || searchText(item).includes(query))
     .filter((item) => !group || item.group_id === group)
@@ -239,73 +282,99 @@ function filteredSightings() {
 }
 
 function renderTable() {
+  elements.refresh.disabled = pending;
+  elements.retry.disabled = pending;
+  elements.loading.hidden = !pending;
+  elements.loading.textContent = dataset ? "Refreshing victim data; showing the last successful dataset…" : "Loading victim data…";
+  elements.error.hidden = !failure;
+  elements.errorMessage.textContent = (dataset ? "Refresh failed. Showing the last successful dataset. " : "Victim data is unavailable. ") + failure;
+  if (!dataset) {
+    elements.rows.replaceChildren();
+    elements.tableWrap.hidden = elements.empty.hidden = elements.pagination.hidden = true;
+    elements.previousPage.disabled = elements.nextPage.disabled = true;
+    elements.resultCount.textContent = "";
+    elements.status.textContent = pending ? "Loading victim data…" : "Victim data is unavailable. Retry to load it.";
+    return;
+  }
   const items = filteredSightings();
   const pageCount = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
-  currentPage = Math.min(currentPage, pageCount);
-  const startIndex = (currentPage - 1) * PAGE_SIZE;
+  if (view.page > pageCount) { view.page = pageCount; writeURL(true); }
+  const startIndex = (view.page - 1) * PAGE_SIZE;
   const pageItems = items.slice(startIndex, startIndex + PAGE_SIZE);
   elements.rows.replaceChildren(...pageItems.map(makeRow));
-  elements.resultCount.textContent = items.length.toLocaleString() + " shown";
-  elements.pagination.hidden = items.length <= PAGE_SIZE;
-  elements.previousPage.disabled = currentPage <= 1;
-  elements.nextPage.disabled = currentPage >= pageCount;
+  elements.resultCount.textContent = items.length.toLocaleString() + " matching claims";
+  elements.pagination.hidden = items.length === 0;
+  elements.previousPage.disabled = view.page <= 1;
+  elements.nextPage.disabled = view.page >= pageCount;
   const firstVisible = items.length ? startIndex + 1 : 0;
   const lastVisible = Math.min(startIndex + PAGE_SIZE, items.length);
   elements.pageStatus.textContent = items.length
-    ? "Page " + currentPage.toLocaleString() + " of " + pageCount.toLocaleString() +
+    ? "Page " + view.page.toLocaleString() + " of " + pageCount.toLocaleString() +
       " · showing " + firstVisible.toLocaleString() + "–" + lastVisible.toLocaleString()
     : "";
-  const hasData = victimSightings().length > 0;
   const hasFilters = Boolean(
-    elements.search.value || elements.group.value || elements.country.value || elements.state.value,
+    view.q || view.group || view.country || view.state,
   );
+  elements.status.textContent = (pending ? "Refreshing. " : failure ? "Refresh failed; showing saved results. " : "") +
+    elements.resultCount.textContent + (items.length ? "; showing " + firstVisible.toLocaleString() + "–" + lastVisible.toLocaleString() + "." : ".");
+  elements.emptyClear.hidden = !hasFilters;
   elements.tableWrap.hidden = items.length === 0;
   elements.empty.hidden = items.length !== 0;
   if (!items.length) {
-    elements.emptyTitle.textContent = hasData && hasFilters ? "No matching sightings" : "No victim claims yet";
-    elements.emptyCopy.textContent = hasData && hasFilters
+    elements.emptyTitle.textContent = hasFilters ? "No matching sightings" : "No victim claims yet";
+    elements.emptyCopy.textContent = hasFilters
       ? "Change a filter or clear the search."
       : "The dashboard will populate after a successful leak-site crawl.";
   }
 }
 
-async function loadData() {
-  try {
-    const response = await fetch(DATA_URL, { cache: "no-cache" });
-    if (!response.ok) throw new Error("Data request returned " + response.status);
-    const result = await response.json();
-    if (!result || !Array.isArray(result.sightings) || !Array.isArray(result.sources)) {
-      throw new Error("The victim data file has an unexpected format.");
-    }
-    dataset = result;
+const request = latestRequest(async signal => {
+  const response = await fetch(DATA_URL, { cache: "no-cache", signal });
+  if (!response.ok) throw new Error("Data request returned " + response.status);
+  const result = await response.json();
+  if (!result || !Array.isArray(result.sightings) || !Array.isArray(result.sources)) {
+    throw new Error("The victim data file has an unexpected format.");
+  }
+  return result;
+}, update => {
+  pending = update.pending;
+  failure = update.error;
+  if (update.data) {
+    dataset = update.data;
     renderMetrics();
     populateFilters();
-    elements.loading.hidden = true;
-    renderTable();
-  } catch (error) {
-    elements.loading.hidden = true;
-    elements.error.hidden = false;
-    elements.errorMessage.textContent = error.message || "Try again later.";
-    elements.resultCount.textContent = "";
+    // Preserve the search draft while a refresh completes.
+    const draft = elements.search.value;
+    syncControls();
+    elements.search.value = draft;
   }
-}
-
-for (const control of [elements.search, elements.group, elements.country, elements.state]) {
-  const resetPageAndRender = () => {
-    currentPage = 1;
-    renderTable();
-  };
-  control.addEventListener("input", resetPageAndRender);
-  control.addEventListener("change", resetPageAndRender);
-}
-
-elements.previousPage.addEventListener("click", () => {
-  currentPage = Math.max(1, currentPage - 1);
-  renderTable();
-});
-elements.nextPage.addEventListener("click", () => {
-  currentPage += 1;
   renderTable();
 });
 
-loadData();
+elements.search.addEventListener("input", () => search.schedule(elements.search.value));
+for (const key of ["group", "country", "state"]) {
+  elements[key].addEventListener("change", () => changeView({ [key]: elements[key].value, page: 1 }));
+}
+for (const button of [elements.clear, elements.emptyClear]) {
+  button.addEventListener("click", () => {
+    changeView({ ...parseView(new URLSearchParams()) });
+    elements.search.focus();
+  });
+}
+elements.previousPage.addEventListener("click", () => changeView({ page: Math.max(1, view.page - 1) }));
+elements.nextPage.addEventListener("click", () => changeView({ page: view.page + 1 }));
+for (const button of [elements.refresh, elements.retry]) button.addEventListener("click", () => { if (!pending) return request.load(); });
+window.addEventListener("popstate", () => {
+  search.cancel();
+  view = parseView(new URL(window.location.href).searchParams);
+  syncControls();
+  writeURL(true);
+  renderTable();
+});
+syncControls();
+writeURL(true);
+const ready = request.load();
+return { ready, reload: request.load };
+}
+
+if (typeof document !== "undefined") startDashboard({ document, window, fetch, Option });
