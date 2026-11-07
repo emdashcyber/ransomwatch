@@ -11,7 +11,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "node --check src/scripts/dashboard.js && node --check src/scripts/classify.js && node tests/test_dashboard.js && node --test tests/navigation.test.mjs",
-    "verify": "node --test tests/verify-build.mjs"
+    "verify": "node --test tests/verify-build.mjs",
+    "test:python": "cd .. && python3 -m unittest discover -s tests",
+    "prepare:pages": "python3 ../scripts/prepare_pages.py",
+    "verify:pages": "python3 ../scripts/verify_pages.py",
+    "check": "npm run test:python && npm test && npm run build && npm run verify && npm run prepare:pages && npm run verify:pages"
   },
   "dependencies": {
     "astro": "^7.3.5"

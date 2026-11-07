@@ -48,15 +48,14 @@ python scripts/refresh_groups.py
 python scripts/scrape_victims.py
 python scripts/prepare_pages.py --data-only
 cd site
-npm install
+npm ci
 npm run dev
 ~~~
 
 Then open http://localhost:4321/ransomwatch/. Run the dashboard and fixture checks with:
 
 ~~~sh
-python -m unittest discover -s tests -v
-(cd site && npm test && npm run build)
+npm --prefix site run check
 ~~~
 
 ## Project contents
@@ -67,3 +66,15 @@ python -m unittest discover -s tests -v
 - scripts/ contains the collectors, bounded network/HTML helpers, and a Pages artifact builder that omits upstream profile links.
 - site/ contains the Astro dashboard (EmDash Cyber theme) and generated JSON.
 - tests/fixtures/ contains small HTML examples used by parser tests.
+
+## Repeatable validation
+
+From the repository root, use Node from `.node-version` and Python from `.python-version`:
+
+```sh
+python3 -m pip install -r requirements.txt
+npm --prefix site ci
+npm --prefix site run check
+```
+
+`check` runs Python fixtures, dashboard tests, the production build, build verification, public packaging and verification of `.pages-site`. Packaging removes profile-link fields and excludes raw build data; tests leave `site/data` unchanged. No Tor service or live crawl is required. `.pages-site`, `site/dist`, Astro caches and installed dependencies are generated/ignored. PR checks and both publishing workflows use the same command; scheduled collection remains separate.

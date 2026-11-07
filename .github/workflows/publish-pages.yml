@@ -5,6 +5,9 @@ on:
     branches:
       - main
     paths:
+      - ".node-version"
+      - ".python-version"
+      - "requirements.txt"
       - "site/**"
       - "scripts/prepare_pages.py"
       - ".github/workflows/publish-pages.yml"
@@ -31,12 +34,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: "3.13"
+          python-version-file: .python-version
+
+      - name: Install collector test dependencies
+        run: python -m pip install -r requirements.txt
 
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
-          node-version: "24"
+          node-version-file: .node-version
           cache: npm
           cache-dependency-path: site/package-lock.json
 
@@ -44,20 +50,9 @@ jobs:
         working-directory: site
         run: npm ci
 
-      - name: Test website scripts
+      - name: Test, build and verify public artifact
         working-directory: site
-        run: npm test
-
-      - name: Build Astro website
-        working-directory: site
-        run: npm run build
-
-      - name: Verify build output
-        working-directory: site
-        run: npm run verify
-
-      - name: Prepare public Pages artifact
-        run: python scripts/prepare_pages.py
+        run: npm run check
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
